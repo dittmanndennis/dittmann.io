@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+.ButtonGroup {
+  display: flex;
+}
+
+.Button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,7 +38,7 @@
   color: white;
 }
 
-.App-link {
+.E-Mail {
   color: #61dafb;
 }
 

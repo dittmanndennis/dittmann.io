@@ -9,13 +9,32 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <div className="ButtonGroup">
+          <a
+            className="E-Mail"
+            href="https://www.linkedin.com/in/dennisdittmann/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="Button">LinkedIn</button>
+          </a>
+          <a
+            className="E-Mail"
+            href="https://github.com/dittmanndennis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="Button">GitHub</button>
+          </a>
+        </div>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="E-Mail"
+          href="mailto: dennis@dittmann.io"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          dennis@dittmann.io
         </a>
       </header>
     </div>
