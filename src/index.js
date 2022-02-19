@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Cookies from './Cookies'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -9,6 +10,13 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Cookies />
+  </React.StrictMode>,
+  document.getElementById('cookies')
 );
 
 // If you want to start measuring performance in your app, pass a function

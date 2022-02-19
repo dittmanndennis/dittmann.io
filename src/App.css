@@ -24,6 +24,14 @@
   color: white;
 }
 
+.App-footer {
+  background-color: #00000069;
+  position: fixed;
+  width: 100%;
+  bottom: 0%;
+  color: white;
+}
+
 .E-Mail {
   color: #61dafb;
 }
