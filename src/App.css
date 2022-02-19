@@ -2,20 +2,6 @@
   text-align: center;
 }
 
-.ButtonGroup {
-  display: flex;
-}
-
-.Button {
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  padding: 10px 60px;
-  border-radius: 5px;
-  margin: 10px 0px;
-  cursor: pointer;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
