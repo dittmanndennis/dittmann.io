@@ -40,7 +40,7 @@ export default function App() {
           </Stack>
         </header>
         <footer className="App-footer">
-          <p color="white">Dennis Dittmann <CopyrightIcon fontSize="small" /> 2022</p>
+          <p color="white">Dennis Dittmann <CopyrightIcon fontSize="small" /> 2024</p>
         </footer>
       </div>
     </ThemeProvider>
